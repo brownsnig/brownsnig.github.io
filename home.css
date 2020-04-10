@@ -1,0 +1,101 @@
+header {
+  background-color: red;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+
+
+
+h1 {
+
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+
+  font-weight: normal;
+}
+
+a {
+  color: blue;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: purple;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+.headdiv{
+	height: 45px;
+        text-align: center;
+}
+
+.main{
+  width: 1000px;
+margin: 0 auto; 
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.nav li {
+ display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a.active{
+ background-color: #111;
+}
+
+li a:visited{
+color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title> Woodbridge Academic Decathlon </title> 
+	<link rel="stylesheet" href="home.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body bgcolor="#f7de1b">
+
+<header style="margin-bottom: 50px">
+	<br>
+<p style="text-align:center"><img src="ocadlogo.png" height="100px"></p>
+    <h1 style="text-align:center; font-family:'Girassol', cursive;">Woodbridge High Academic Decathlon</h1>
+    <h2 style="text-align:center; font-family: 'Satisfy', cursive">Orange County's Four-Time Champions</h2>
+
+
+<div class="headdiv" id="myNav">
+    <ul class = "nav">
+      <li><a href="Home.html" style="font-family: 'Ubuntu', sans-serif;">Home</a></li>
+      <li><a href="About Decathlon.html" style="font-family: 'Ubuntu', sans-serif;">About Decathlon</a></li>
+      <li><a href="Testimonials.html"  style="font-family: 'Ubuntu', sans-serif;">Testimonials</a></li>
+      <li><a href="Photo Gallery.html" class="active" style="font-family: 'Ubuntu', sans-serif;">Photo Gallery</a></li>
+    </ul>
+</div>
+</header>
+
+<div class="main" style="font-family:'Inria Sans', sans-serif;">
+<p><h3 style="text-align: center"> </h3></p>
+
+
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myNav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
