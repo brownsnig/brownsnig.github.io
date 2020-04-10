@@ -43,8 +43,8 @@ NAVIGATION
 }
 
 .main{
-  width: 1000px;
-margin: 0 auto; 
+  width: 100%;
+margin: 0; 
 }
 
 .nav{
