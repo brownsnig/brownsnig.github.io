@@ -100,5 +100,19 @@ color: white;
   padding-top: 60px;
 }
 
+/***Table**/
+
+.center{
+width: 70%;
+margin-left: 15%;
+margin-right: 15%; 
+}
+
+td{
+padding: 1%;
+}
+
+
+
 
 
