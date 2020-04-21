@@ -113,11 +113,11 @@ padding: 2%;
 }
 
 a:hover{
-position: fixed; 
+display: block;
 }
 
 a:active{
-position: fixed;
+display: block;
 }
 
 
